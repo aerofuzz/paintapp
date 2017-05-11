@@ -1,6 +1,7 @@
 body{
   width: 100%;
   margin: 0px;
+  font-family: Segoe Ui Light
 }
 header{
   width: 100%;
@@ -9,6 +10,8 @@ header{
 div.top{
   color: white;
   text-align: center;
+}
+#brushBox {
 
 }
 h1{
