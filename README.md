@@ -3,7 +3,6 @@ Drawing UI
 
 Created by Jonathan
 ------------
-### Thank's for helped by CodiCode
 
 ### Project goal
 

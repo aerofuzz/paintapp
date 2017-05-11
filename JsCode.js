@@ -1,4 +1,3 @@
-
 var mousePressed = false;
 var lastX, lastY;
 var ctx;
