@@ -8,11 +8,11 @@ header{
   height: 100px;
   background-color: orange;
 }
-div.top{
+div.top, h1{
   color: white;
+  padding-top: 1px;
   text-align: center;
 }
-div.paintBox, h1 {
+div.paintBox {
   margin: 0px;
-  padding-top: 25px;
 }
