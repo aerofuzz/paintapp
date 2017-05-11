@@ -11,25 +11,25 @@ The goal of this project is drawing with mouse, change color of brush and size.
 
 here is an exerpt of javascript
 ```javascript
-function InitThis() {
-    ctx = document.getElementById('myCanvas').getContext("2d");
+function Paint() {
+    ctx = document.getElementById('brushBox').getContext("2d");
 
-    $('#myCanvas').mousedown(function (e) {
+    $('#brushBox').mousedown(function (e) {
         mousePressed = true;
         Draw(e.pageX - $(this).offset().left, e.pageY - $(this).offset().top, false);
     });
 
-    $('#myCanvas').mousemove(function (e) {
+    $('#brushBox').mousemove(function (e) {
         if (mousePressed) {
             Draw(e.pageX - $(this).offset().left, e.pageY - $(this).offset().top, true);
         }
     });
 
-    $('#myCanvas').mouseup(function (e) {
+    $('#brushBox').mouseup(function (e) {
         mousePressed = false;
     });
 
-    $('#myCanvas').mouseleave(function (e) {
+    $('#brushBox').mouseleave(function (e) {
         mousePressed = false;
     });
 }
