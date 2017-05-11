@@ -5,6 +5,7 @@ body{
 }
 header{
   width: 100%;
+  height: 100px;
   background-color: orange;
 }
 div.top{
@@ -14,6 +15,7 @@ div.top{
 #brushBox {
 
 }
-h1{
-    margin: 0px;
+div.paintBox, h1 {
+  margin: 0px;
+  padding-top: 25px;
 }
