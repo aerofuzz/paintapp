@@ -1,0 +1,16 @@
+body{
+  width: 100%;
+  margin: 0px;
+}
+header{
+  width: 100%;
+  background-color: orange;
+}
+div.top{
+  color: white;
+  text-align: center;
+
+}
+h1{
+    margin: 0px;
+}
