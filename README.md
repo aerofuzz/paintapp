@@ -34,4 +34,8 @@ function Paint() {
     });
 }
 ```
+<<<<<<< HEAD
 ![WebSite](./README.PNG)
+=======
+[image]
+>>>>>>> e0c3e5f8c2dd927602e43ee31c74280d653cb771
