@@ -14,9 +14,7 @@
         <h1>UI Drawing</h1>
       </div>
     </header>
-      <div class="paintBox">
-          <canvas id="brushBox" width="1920" height="700" ></canvas>
-          <br /><br />
+        <div class="settings">
           <button onclick="javascript:clearArea();return false;">Clear Area</button>
           <!-- SIZE SELECTOR -->
           <select id="selWidth">
@@ -28,19 +26,19 @@
               <option value="10">10</option>
           </select>
           <!-- END SIZE SELECOR -->
-
           <!-- COLOR SELECTOR -->
-           <select id="selColor">
-              <option value="#212121">black</option>
-              <option value="#3498db" selected="selected">blue</option>
-              <option value="#e74c3c">red</option>
-              <option value="#1abc9c">green</option>
-              <option value="#f1c40f">yellow</option>
-              <option value="#95a5a6">gray</option>
-              <option value="#f39c12">orange</option>
-              <option value="white">white</option>
-          </select>
-          <!-- END COLOR SELECTOR -->
-      </div>
+          <select id="selColor">
+             <option value="#212121">black</option>
+             <option value="#3498db" selected="selected">blue</option>
+             <option value="#e74c3c">red</option>
+             <option value="#1abc9c">green</option>
+             <option value="#f1c40f">yellow</option>
+             <option value="#95a5a6">gray</option>
+             <option value="#f39c12">orange</option>
+             <option value="white">Rubber</option>
+         </select>
+         <!-- END COLOR SELECTOR -->
+          </div>
+          <canvas id="brushBox" width="2380" height="1000" ></canvas>
   </body>
 </html>
