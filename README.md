@@ -1,5 +1,2 @@
-Drawing UI
-=======
+Drawing Project
 
-```
-![WebSite](./README.PNG)
